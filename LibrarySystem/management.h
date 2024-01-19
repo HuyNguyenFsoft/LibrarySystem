@@ -16,6 +16,7 @@ private:
 	map<int, book> m_list_books_by_id;
 	map<string, book> m_list_books_by_name;
 	map<int, user> m_list_users;
+	//map<int, vector<borrowInfo>> m_list_user_borrow_book;
 public:
 	void addBook();
 	void searching();
@@ -23,5 +24,6 @@ public:
 	void listingUsers();
 	void borrowBook();
 	void returnBook();
+	void addUser();
 };
 

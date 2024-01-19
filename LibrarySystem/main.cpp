@@ -3,9 +3,9 @@
 
 int main()
 {
+    management object;
     while (true)
     {
-        management object;
         int choice;
         cout << "Library menu:\n";
         cout << "1) Add book\n";
@@ -30,6 +30,9 @@ int main()
         {
         case 1: 
             object.addBook();
+            break;
+        case 4: 
+            object.listingBook();
             break;
         case 9:
             exit(0);
